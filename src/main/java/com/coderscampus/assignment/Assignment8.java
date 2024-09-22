@@ -45,7 +45,7 @@ public class Assignment8 {
         // force thread to pause for half a second to simulate actual Http / API traffic
         // delay
         try {
-            Thread.sleep(500);
+            Thread.sleep(100);
         } catch (InterruptedException e) {
         }
 
